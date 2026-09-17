@@ -4,13 +4,13 @@
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Modern operating systems, background applications, and telemetry trackers often transmit private user data over the network without explicit consent. **NetPrivacy Monitor** captures live network interface traffic, extracts protocol metadata, maps domain names, and aggregates individual packets into bidirectional network flows enriched with statistical features for Machine Learning classifiers.
 
 ---
 
-## 🏗️ System Architecture & Roadmap
+## System Architecture & Roadmap
 
 ```
 ┌─────────────────┐     ┌──────────────────────┐     ┌──────────────────────┐
@@ -28,7 +28,7 @@ Modern operating systems, background applications, and telemetry trackers often 
 
 ---
 
-## ✨ Features Implemented So Far
+##  Features Implemented So Far
 
 ### 1. Live TShark Capture Layer
 - **Subprocess Streaming**: Uses Python's `subprocess.Popen` to manage TShark safely.
@@ -93,7 +93,7 @@ Calculates **18 real-time statistical metrics** per flow:
 
 ---
 
-## 🏃 Quick Start
+##  Quick Start
 
 ### 1. Clone & Install Dependencies
 ```bash
@@ -122,7 +122,7 @@ uv run python -m mlproject_main
 
 ---
 
-## 📊 Recommended Training Datasets
+## Recommended Training Datasets
 
 For training Machine Learning and Deep Learning models on flow patterns, the following public datasets are recommended:
 
@@ -141,7 +141,7 @@ For training Machine Learning and Deep Learning models on flow patterns, the fol
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mlproject-main/
@@ -155,7 +155,7 @@ mlproject-main/
 
 ---
 
-## 🔮 Next Steps
+## Next Steps
 
 - [ ] **Feature Matrix Vectorization**: Convert aggregated flow dictionaries into tabular vectors (NumPy/Pandas/Scikit-Learn).
 - [ ] **Dataset Collection & Labeling**: Capture benign vs. privacy-invasive telemetry samples.
